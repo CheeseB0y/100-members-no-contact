@@ -185,7 +185,7 @@ func finish_dialogue():
 		_launch_into_battle(near_enemy.get_combat_data())
 	elif near_enemy and "is_mechanic":
 		print("It's a mechanic! :)")
-		SceneManager.change_screen(SceneManager.SceneKey.GARAGE)
+		SceneManager.push_scene(SceneManager.SceneKey.GARAGE)
 
 func _launch_into_battle(data: Dictionary) -> void:
 	is_launching = true

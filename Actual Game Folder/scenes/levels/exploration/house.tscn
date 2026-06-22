@@ -651,3 +651,4 @@ position = Vector2(209, 40)
 
 [node name="Door" parent="." unique_id=433099157 instance=ExtResource("4_mk0ui")]
 position = Vector2(184, 369)
+mode = 1
